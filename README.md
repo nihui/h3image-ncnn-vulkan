@@ -101,7 +101,7 @@ With the optional Hugging Face downloader:
 
 ```shell
 hf download nihui-szyl/h3-image-ncnn --local-dir models \
-  --include "h3image/processor/*" "h3image/text_encoder/*" \
+  "h3image/processor/*" "h3image/text_encoder/*" \
   "h3image/vision/*" "h3image/vae/*" \
   "h3image/transformer/transformer-core.ncnn.*" \
   "h3image/transformer/fixed-modulations-bf16*.bin"
